@@ -1,0 +1,17 @@
+# Archivos temporales
+*.tmp
+*.temp
+*~
+
+# Archivos temporales de Linux/editors
+.directory
+.Trash-*
+
+# Logs generados temporalmente
+*.log
+
+# Archivos de sistema
+.DS_Store
+
+# Credenciales o archivos locales que pudieran aparecer accidentalmente
+*.secret
