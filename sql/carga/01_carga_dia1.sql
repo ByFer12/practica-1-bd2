@@ -1,14 +1,7 @@
--- ============================================================
--- PRÁCTICA 1 - BASES DE DATOS 2
--- DÍA 1: CARGA DE CLIENTE, HABITACION Y EMPLEADO
--- 300 registros por tabla = 900 registros totales
--- ============================================================
-
 USE hotel_db;
 
 START TRANSACTION;
 
--- CLIENTE: 300 registros
 INSERT INTO CLIENTE
 (nombre, apellido, correo, telefono, documento_identidad, pais_origen, fecha_registro, activo)
 VALUES
