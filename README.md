@@ -46,7 +46,7 @@ Contiene todos los respaldos generados durante la práctica.
 
 Contiene la documentación técnica de la práctica.
 
-- [`bitacora.pdf`](docs/Bitacora de Ejecucion - Practica 1.pdf)  
+- [`bitacora.pdf`](docs/bitacora.pdf)  
   Registro de las actividades realizadas, comandos utilizados, tiempos y resultados.
 
 - [`manual_tecnico.pdf`](docs/Manual_Tecnico.pdf)  
