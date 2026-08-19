@@ -46,10 +46,10 @@ Contiene todos los respaldos generados durante la práctica.
 
 Contiene la documentación técnica de la práctica.
 
-- [`bitacora.pdf`](docs/bitacora.pdf)  
+- [`bitacora.pdf`](docs/Bitacora de Ejecucion - Practica 1.pdf)  
   Registro de las actividades realizadas, comandos utilizados, tiempos y resultados.
 
-- [`manual_tecnico.pdf`](docs/manual_tecnico.pdf)  
+- [`manual_tecnico.pdf`](docs/Manual_Tecnico.pdf)  
   Describe el diseño de la base de datos, implementación, backups, restauraciones, análisis y conclusiones.
 
 Las carpetas internas de capturas utilizadas en la documentación se encuentran también dentro de `docs/`.
