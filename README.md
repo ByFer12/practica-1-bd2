@@ -130,3 +130,36 @@ Ejecución:
 
 ```bash
 python3 scripts/backup_manager.py
+```
+
+## Scripts SQL
+
+📁 [`sql/`](sql/)
+
+Contiene los scripts SQL para crear, cargar, eliminar y verificar la base de datos, además de los comandos relacionados con backups y restauraciones.
+
+- [`00_create_database.sql`](sql/00_create_database.sql)
+  Crea la base de datos.
+
+- [`01_schema.sql`](sql/01_schema.sql)
+  Define el esquema y las tablas de la base de datos.
+
+- [`02_drop_database.sql`](sql/02_drop_database.sql)
+  Elimina la base de datos.
+
+- [`sql/carga/`](sql/carga/)
+  Contiene los scripts de carga de información de cada día:
+  - [`01_carga_dia1.sql`](sql/carga/01_carga_dia1.sql)
+  - [`02_carga_dia2.sql`](sql/carga/02_carga_dia2.sql)
+  - [`03_carga_dia3.sql`](sql/carga/03_carga_dia3.sql)
+  - [`04_carga_dia4.sql`](sql/carga/04_carga_dia4.sql)
+  - [`05_carga_dia5.sql`](sql/carga/05_carga_dia5.sql)
+
+- [`sql/backups/`](sql/backups/)
+  Contiene [`comandos_backups_restauracion.md`](sql/backups/comandos_backups_restauracion.md), con los comandos utilizados para realizar backups y restauraciones.
+
+- [`sql/consultas/`](sql/consultas/)
+  Contiene [`verificacion_completa.sql`](sql/consultas/verificacion_completa.sql), utilizado para verificar la información restaurada.
+
+Los scripts de carga deben ejecutarse en orden, desde el Día 1 hasta el Día 5.
+
