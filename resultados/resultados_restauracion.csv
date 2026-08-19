@@ -1,0 +1,11 @@
+backup,tipo,tamano_bytes,tiempo_creacion_segundos,tiempo_restauracion_segundos,resultado
+full_dia1,Completo,91964,0.083,0.183,Correcto
+incremental_dia1,Incremental,84326,0.025,0.043,Correcto
+full_dia2,Completo,120876,0.056,0.187,Correcto
+incremental_dia2,Incremental,18106,0.029,0.034,Correcto
+full_dia3,Completo,145628,0.055,0.194,Correcto
+incremental_dia3,Incremental,20221,0.017,0.026,Correcto
+full_dia4,Completo,169430,0.053,0.197,Correcto
+incremental_dia4,Incremental,17698,0.016,0.031,Correcto
+full_dia5,Completo,195494,0.051,0.204,Correcto
+incremental_dia5,Incremental,21611,0.016,0.024,Correcto

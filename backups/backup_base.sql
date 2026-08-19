@@ -35,7 +35,7 @@ CREATE TABLE `CLIENTE` (
   PRIMARY KEY (`id_cliente`),
   UNIQUE KEY `correo` (`correo`),
   UNIQUE KEY `documento_identidad` (`documento_identidad`)
-) ENGINE=InnoDB AUTO_INCREMENT=301 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -56,7 +56,7 @@ CREATE TABLE `EMPLEADO` (
   `activo` tinyint(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id_empleado`),
   UNIQUE KEY `correo` (`correo`)
-) ENGINE=InnoDB AUTO_INCREMENT=301 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -82,7 +82,7 @@ CREATE TABLE `HABITACION` (
   CONSTRAINT `chk_habitacion_capacidad` CHECK ((`capacidad` > 0)),
   CONSTRAINT `chk_habitacion_piso` CHECK ((`piso` > 0)),
   CONSTRAINT `chk_habitacion_precio` CHECK ((`precio_noche` > 0))
-) ENGINE=InnoDB AUTO_INCREMENT=301 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -180,4 +180,4 @@ CREATE TABLE `RESERVA` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-08-18 23:45:25
+-- Dump completed on 2026-08-19 12:22:13

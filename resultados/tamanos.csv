@@ -2,3 +2,9 @@ backup,tipo,tamano_bytes,fecha_hora
 backup_base,Base,8934,2026-08-18 23:45:25
 full_dia1,Completo,91964,2026-08-19 00:06:31
 incremental_dia1,Incremental,84326,2026-08-19 00:36:19
+full_dia2,Completo,120876,2026-08-19 01:44:14
+incremental_dia2,Incremental,18106,2026-08-19 01:47:52
+full_dia3,Completo,145628,2026-08-19 02:05:23
+incremental_dia3,Incremental,20221,2026-08-19 02:04:05
+full_dia5,Completo,195494,2026-08-19 03:36:59
+incremental_dia5,Incremental,21611,2026-08-19 03:36:31
