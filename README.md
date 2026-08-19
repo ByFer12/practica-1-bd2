@@ -64,6 +64,14 @@ Contiene las capturas utilizadas para demostrar las cargas y restauraciones real
 
 ### Evidencias de carga
 
+- [`evidencia/dia1/`](evidencia/dia1/dia1_resumen.png)
+- [`evidencia/dia2/`](evidencia/dia2/dia2_resumen.png)
+- [`evidencia/dia3/`](evidencia/dia3/dia3_resumen.png)
+- [`evidencia/dia4/`](evidencia/dia4/dia4_resumen.png)
+- [`evidencia/dia5/`](evidencia/dia5/dia5_resumen.png)
+
+### Evidencias de backup
+
 - [`evidencia/dia1/`](evidencia/dia1/)
 - [`evidencia/dia2/`](evidencia/dia2/)
 - [`evidencia/dia3/`](evidencia/dia3/)
