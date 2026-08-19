@@ -1,0 +1,4 @@
+backup,tipo,tamano_bytes,fecha_hora
+backup_base,Base,8934,2026-08-18 23:45:25
+full_dia1,Completo,91964,2026-08-19 00:06:31
+incremental_dia1,Incremental,84326,2026-08-19 00:36:19
