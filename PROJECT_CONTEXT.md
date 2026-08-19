@@ -449,21 +449,24 @@ Finalizar:
 - [x] Definir estrategia para fechas reales
 - [x] Definir estructura general
 - [x] Crear este archivo de contexto
+- [x] Crear/finalizar repositorio GitHub
+- [x] Añadir el archivo de contexto al repositorio
+- [x] Realizar primer commit
+- [x] Realizar primer push
+- [x] Confirmar estado local/remoto
+- [x] Diseñar modelo relacional
+- [x] Documentar el diseño en el manual técnico
+- [x] Crear el esquema SQL
+- [x] Crear la base de datos hotel_db
+- [x] Ejecutar el esquema definitivo
+- [x] Finalizar las tablas CLIENTE, HABITACION, EMPLEADO, RESERVA, PAGO y LOG_HABITACION
 
 ### En curso
 
-- [x] Crear/finalizar repositorio GitHub
-- [x] Añadir este archivo al repositorio
-- [x] Primer commit
-- [x] Primer push
-- [x] Confirmar estado local/remoto
+- [ ] Preparar cinco archivos de carga
 
 ### Pendiente
 
-- [ ] Diseñar modelo relacional
-- [ ] Crear esquema SQL
-- [ ] Validar estructura
-- [ ] Preparar cinco archivos de carga
 - [ ] Generar y validar datos
 - [ ] Configurar Binary Logs
 - [ ] Ejecutar Día 1
